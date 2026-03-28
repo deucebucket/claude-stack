@@ -31,7 +31,8 @@
     "commands/cs:progress.md",
     "commands/cs:stats.md",
     "commands/cs:spec.md",
-    "commands/cs:scan.md"
+    "commands/cs:scan.md",
+    "commands/cs:update.md"
   ],
   "skills": [
     "skills/ui-ux-design.md",
