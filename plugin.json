@@ -1,0 +1,56 @@
+{
+  "name": "claude-stack",
+  "version": "1.0.0",
+  "description": "Unified Claude Code toolkit — domain agents, execution commands, design skills, security hooks. Complements superpowers.",
+  "author": "deucebucket",
+  "license": "MIT",
+  "agents": [
+    "agents/cs-firmware-engineer.md",
+    "agents/cs-game-designer.md",
+    "agents/cs-game-audio.md",
+    "agents/cs-narrative-designer.md",
+    "agents/cs-level-designer.md",
+    "agents/cs-technical-artist.md",
+    "agents/cs-data-engineer.md",
+    "agents/cs-mcp-builder.md",
+    "agents/cs-security-engineer.md",
+    "agents/cs-devops.md",
+    "agents/cs-database-optimizer.md",
+    "agents/cs-technical-writer.md",
+    "agents/cs-rapid-prototyper.md",
+    "agents/cs-backend-architect.md",
+    "agents/cs-ai-engineer.md",
+    "agents/gsd/cs-gsd-executor.md",
+    "agents/gsd/cs-gsd-planner.md",
+    "agents/gsd/cs-gsd-verifier.md"
+  ],
+  "commands": [
+    "commands/cs:do.md",
+    "commands/cs:next.md",
+    "commands/cs:fast.md",
+    "commands/cs:progress.md",
+    "commands/cs:stats.md",
+    "commands/cs:spec.md",
+    "commands/cs:scan.md"
+  ],
+  "skills": [
+    "skills/ui-ux-design.md",
+    "skills/security-scan.md",
+    "skills/build-fix.md",
+    "skills/spec-driven-dev.md",
+    "skills/multi-agent-orchestrate.md",
+    "skills/pattern-extract.md"
+  ],
+  "hooks": [
+    "hooks/context-monitor.js",
+    "hooks/credential-guard.js",
+    "hooks/format-on-edit.js"
+  ],
+  "rules": [
+    "rules/python.md",
+    "rules/typescript.md",
+    "rules/go.md",
+    "rules/rust.md",
+    "rules/cpp.md"
+  ]
+}
